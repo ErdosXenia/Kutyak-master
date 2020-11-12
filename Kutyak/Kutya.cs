@@ -14,6 +14,9 @@ namespace Kutyak
         private int eletkor;
         private string vizsgalat;
 
+        public string Vizsgalat { get { return vizsgalat; } }
+
+        public int ID { get { return id; } }
         public int Fajtaid { get { return fajta_id; } }
 
         public int Nevid { get { return nev_id; } }
